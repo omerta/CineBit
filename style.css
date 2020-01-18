@@ -1,0 +1,182 @@
+/* MENÚ */
+.separar-menu{
+    width: 95%;
+    justify-content: space-around;
+  }
+
+.a1:hover{
+  background-color: #145E8C;
+  }
+.a2:hover{
+  background-color: #145E8C;
+  }
+.a3:hover{
+  background-color: #145E8C;
+  }
+.a4:hover{
+  background-color: #145E8C;
+  }
+.a5:hover{
+  background-color: #145E8C;
+  }
+.a6:hover{
+  background-color: #145E8C;
+  }
+.boton{
+  width: 100px;
+  margin-left: 0px;
+  margin-top: 5px;
+  height: 32px;
+}
+.color-login{
+    color: rgb(176, 225, 255);
+}
+.img-login {
+    width: 35px;
+    margin-bottom: 5px;
+}
+.logins-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ALERT*/
+.swal-button {
+    background-color: #092140;
+}
+.swal-button:not([disabled]):hover {
+    background-color: #145E8C;
+}
+/* INICIO */
+.adornos {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: #092140;
+    text-align: left;
+}
+/* CARTELERA */
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.img {
+    float: left;
+    margin-top: 10px;
+}
+
+.titulo {
+    color: #092140;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.sombra {
+    box-shadow: 0 0 8px black;
+    margin-bottom: 50px;
+}
+
+.margintop {
+    margin-top: 80px;
+}
+
+.margintop50 {
+    margin-top: 50px;
+}
+
+.amenaza {
+    width: 286px;
+    height: 381px;
+}
+
+.tiempo {
+    width: 286px;
+    height: 381px;
+}
+
+.amenazasl {
+    width: 1046px;
+    height: 200px;
+}
+
+.left {
+    margin-left: opx;
+    ;
+}
+
+.colort {
+    color: #092140;
+    font-weight: bold;
+}
+
+.sinopsis {
+    height: 200px;
+    overflow: scroll;
+}
+
+.card {
+    border-color: #145E8C;
+}
+
+.card-link {
+    color: white;
+    background-color: #BF4C41;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.card-link:hover {
+    color: white;
+    text-decoration: none;
+    background: #F28379;
+}
+
+.negrilla {
+    font: bold 12px;
+}
+
+.columna {
+    display: flex;
+    justify-content: center;
+}
+
+.iconos {
+    width: 45px;
+}
+/* ESTRENOS */
+.separar-menu{
+    width: 95%;
+    justify-content: space-around;
+  }
+
+.a1:hover{
+  background-color: #145E8C;
+  }
+.a2:hover{
+  background-color: #145E8C;
+  }
+.a3:hover{
+  background-color: #145E8C;
+  }
+.a4:hover{
+  background-color: #145E8C;
+  }
+.a5:hover{
+  background-color: #145E8C;
+  }
+.a6:hover{
+  background-color: #145E8C;
+  }
+.boton{
+  width: 100px;
+  margin-left: 0px;
+  margin-top: 5px;
+  height: 32px;
+}

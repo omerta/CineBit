@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+        <style>
+            .color {
+                color: black;
+            }
+
+            .bg-dark {
+                background-color: rgba(212, 14, 14, 0.747) !important;
+            }
+
+            .card-title:hover {
+                font-weight: bold;
+            }
+
+            .card-title:hover~.card-text {
+                display: block !important;
+            }
+
+            .card:hover~p.card-text {
+                display: block !important;
+            }
+
+            .center {
+                display: flex;
+                align-items: center;
+            }
+
+            img {
+                filter: grayscale();
+            }
+
+            img:hover {
+                filter: none;
+            }
+
+            .img-theacher {
+                height: 280px;
+                width: 280px;
+            }
+
+            .img-student {
+                height: 180px;
+                width: 180px;
+            }
+
+            @media (max-width: 1024px) {
+                .img-student {
+                    height: 120px;
+                    width: 120px;
+                }
+            }
+
+            @media (max-width: 600px) {
+                .img-student {
+                    height: 100px;
+                    width: 100px;
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" type="text/css" href="./Pics/film.png" />
+        <title>Sobre Nosotros</title>
+    </head>
+
+    <body>
+        <div class="d-flex justify-content-center bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Features</a>
+                        <a class="nav-item nav-link" href="#">Pricing</a>
+                        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <!-- <h1>Profesoras</h1> -->
+
+            <div class="card mb-0 border-0 mt-4" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div class="col-md-6" style="text-align: right;">
+                        <img src="img/paola cuadros.jpg" class="card-img rounded-circle img-theacher" alt="...">
+                    </div>
+                    <div class="col-md-4 center">
+                        <div class="card-body">
+                            <h5 class="card-title">Paola Cuadros</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- <h2>Alumnos</h2> -->
+            <!-- Andrei -->
+            <div class="card-group">
+                <div class="card p-3 border-0">
+                    <img src="img/Andres medina Acosta.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Andrés Medina Acosta</h5>
+                        <p class="card-text" style="display: none;">Soy Dj Productor nacido en Bogotá, Colombia. Me
+                            gusta e
+                            interesa la
+                            programacion. interesado en busca de nuevos caminos en la parte profesional gracias al
+                            Desarrollo Web.</p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/lorena.jpeg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorena Moreno</h5>
+                        <p class="card-text" style="display: none;">Ingeniera de Sistemas, enamorada de la tecnología y
+                            los
+                            chocolates. Con gran interés en aprender y formarme como una desarrolladora web.</p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/mariana.png" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mariana Gutierrez</h5>
+                        <p class="card-text" style="display: none;">Abogada.</p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/Andrey Laverde.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Andrey Laverde</h5>
+                        <p class="card-text" style="display: none;">Soy un mercadólogo nacido en bogotá, tengo 19 años .
+                            Me
+                            encuentro actualmente estudiando Marketing y Negocios Internacionales. Me dedico al
+                            performance
+                            Marketing como Analista de Mercadeo. Me defino como un apasionado al aprendizaje y un
+                            curioso de
+                            del mundo. </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Guillermo -->
+            <div class="card-group">
+                <div class="card p-3 border-0">
+                    <img src="img/jefry.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jefry Guevara</h5>
+                        <p class="card-text" style="display: none;">Diseñador gráfico y desarrollador web, soy
+                            autodidacta, mi pasión es la programación, el deporte y mi familia. Mi objetivo es
+                            profundizar y encaminarme hacia machine learning y todo lo relacionado con AI.</p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/cevargas.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Carlos Eduardo Vargas</h5>
+                        <p class="card-text" style="display: none;">Diseñador Gráfico y arte finalista en dispapeles,
+                            con ganas de ser programador algún día.</p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/cristian_lara.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cristian López Lara</h5>
+                        <p class="card-text" style="display: none;">Ingeniero Mecánico bogotano, con pasión por las
+                            herramientas computacionales, entre ellas la programación.</p>
+                    </div>
+                </div>
+
+                <!-- <div class="card p-3 border-0">
+                    <img src="img/pink_400x400.png" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Danilo Alexander García</h5>
+                        <p class="card-text" style="display: none;">Psicólogo, con interés en la tecnología y las diferentes formas de implementación en las modalidades de atención y servicio a los consultantes.</p>
+                    </div>
+                </div> -->
+
+                <div class="card p-3 border-0">
+                    <img src="img/jairo_reyes.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jairo Reyes</h5>
+                        <p class="card-text" style="display: none;">Estudiante maestría en Ing. Electrónica.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alejandro -->
+            <div class="card-group pt-4 ">
+                <div class="card p-3 border-0">
+                    <img src="img/2020-01-17.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Alejandro Bastidas</h5>
+                        <p class="card-text" style="display: none;">Cuasi Comunicador social en medios audiovisuales.
+                            Analista de CRM.</p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/2020-01-17 (2).jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nelson Balaguera R.</h5>
+                        <p class="card-text" style="display: none;">Soy estudiante de administración de empresas, me
+                            gusta la programación y el
+                            desarrollo web y me encantaria mucho poder desempeñarlo. Actualmente soy un colaborador en
+                            la
+                            Ibero</p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/2020-01-17 (1).jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Catherin Molina</h5>
+                        <p class="card-text" style="display: none;">Veterinaria, proyectada hacer cada dia mejor en todo
+                            ámbito de mi vida.</p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/2020-01-17 (3).jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Paula Hernández</h5>
+                        <p class="card-text" style="display: none;">Hola! Soy diseñadora gráfica enfocada en la gerencia
+                            actualmente diseñadora de
+                            la Ibero, me encanta estudiar, soy estudiante de programación web.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alexander -->
+            <div class="card-group">
+                <div class="card p-3 border-0">
+                    <img src="img/Mauricio.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mauricio Acosta</h5>
+                        <p class="card-text" style="display: none;">Soy economista, nacido en Bogotá Colombia. Me gusta
+                            mucho la programación, especialmente después de las 9pm. Actualmente trabajo en una
+                            Institución
+                            de Educación Superior en la zona de Chapinero, la Corporación Universitaria Iberoamericana.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/Alexander.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Alexander Alvarez</h5>
+                        <p class="card-text" style="display: none;">Estudios en electrónica. Trabajo como mensajero
+                            motorizado, próximamente diseñador web full stack.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/yalile_camacho.JPG" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yalile camacho Sanchez</h5>
+                        <p class="card-text" style="display: none;">Soy fisioterapeuta, especialista en Gerencia de la
+                            Salud
+                            Pública y especialista en Gerencia de la Salud Ocupacional, actualmente me dedico a la
+                            docencia
+                            en la Corporación Universitaria Iberoamericana .</p>
+                    </div>
+
+                </div>
+
+                <div class="card p-3 border-0">
+                    <img src="img/Diego.jpg" class="card-img-top rounded-circle img-student" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Diego Rosero</h5>
+                        <p class="card-text" style="display: none;">Fisioterapueta, docente en institucion
+                            universitaria,
+                            aficionado a la programación con ganas de elaborar páginas web con intereses propios. Busco
+                            adquirir nuevos conocimientos constantemente.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
